@@ -42,7 +42,6 @@ App.config([
 			})
 			
 			$stateProvider.state('home', {
-				url : "/",
 				params : {},
 				templateUrl : function($stateParams) {
 					return 'index/home';
